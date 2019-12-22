@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moody</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link href="assets/fonts/fontawesome.css" rel="stylesheet">
+    <link href="assets/fonts/brands.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+  </head>
+  <body>
+    <aside class="main-aside">
+      <div class="input-group md-form form-sm form-2 pl-0 search-form">
+        <input class="form-control my-0 py-1 amber-border" type="text" placeholder="ძებნა..." aria-label="Search">
+        <div class="input-group-append">
+          <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fa fa-search text-grey" aria-hidden="true"></i></span>
+        </div>
+      </div>
+
+
+
+    <div class="nav-links">
+      <ul class="nav-ul ff-bold">
+        <li class="nav-li">ჩვენს შესახებ</li>
+        <li class="nav-li">მგზავრობის დაგეგმვა</li>
+          <li class="nav-li"><a href="./index2.html" target="_self">ტრანსპორტი</li></a>
+
+          <li class="nav-li">ადაპტირებული დაწესებულებები</li>
+          <li class="nav-li">ვაკანსიები</li>
+          <li class="nav-li"><a href="./index1.html" target="_self">ფორუმი</li> </a>
+          <li class="nav-li">კონტაქტი</li>
+      </ul>
+    </div>
+
+    <div class="momtsere-div flex">
+      <img
+        src="assets/img/svg/messenger-logo.svg"
+        alt="messenger"
+        class="messenger-logo"
+      />
+      <p class="momtsere-p ff-bold">მომწერე</p>
+        
+    </div>
+    <div class="aside-contact-logos">
+      <ul class="d-flex soc">
+        <li><a href="#" class="p-2 fb"><i class="fab fa-facebook-f text-white" aria-hidden="true"></i></a></li>
+        <li><a href="#" class="p-2 instagram"><i class="fab fa-instagram text-white" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    </aside>
+    <section class="main-section">
+      <header>
+          <div class="row">
+            <div class="col-9 d-flex align-items-center">
+                <!-- <img
+                  src="assets/img/svg/moody-logo.svg"
+                  alt="moody"
+                  class="moody-logo"
+                /> -->
+                <div>
+                    <h1 class="moody-diary ff-bold">ფორუმი</h1>
+                </div>
+                
+            </div>
+ 
+  
+            <div class="col-3 d-flex justify-content-end">
+              <button onclick="document.getElementById('id01').style.display='block'" class="my-auto" style="width:auto;">ავტორიზაცია</button>
+            </div>
+        </div>
+
+        <div id="id01" class="modal">
+        
+          <form class="modal-content animate" action="/action_page.php">
+  
+            <div class="p-5">
+              <div>
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+              <div class="imgcontainer">
+                  <img src="assets/img/img_avatar2.png" alt="Avatar" class="avatar">
+              </div>
+  
+              <div class="m-0">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+  
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <div class="my-3">
+                  <button type="submit">Login</button>
+                </div>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+  
+  
+              <div class="my-3">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+  
+            </div>
+  
+          </form>
+        </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+      </header>
+
+<!-- <div class="box10">
+  <div>
+  <img  class="posteri-dgeebi" src="assets/img/3.png"></div>
+  <div class="BOX1">
+    <div class="BOX2">
+  <p class="satauri-dgiuri ff-bold">მუდის დღიური</p>
+  <div class="BOX">
+  <p>მე ვარ მუდი.ადფეაფედცნაც ცნცწაციწა წცნუეცცანაც აცუცნაც აცფუნფ აწცკნაცაცა ცა ცუეჰეფსდ დ უდაჰდიჰადა ფნუეფჰაიუფჰაუფნფ აფიაფჰაიფანწაფ აფაჰფაეიჰფეაფ საფნაუჰეფეაიფ </p>
+  </div></div> -->
+  <div class="yuti">
+                  <p>გამარჯობა... მიხარია, რომ მსგავსი ტიპის საიტი აღმოვაჩინე.</p>
+                </div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div>
+  <!-- <div class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/2.png">
+  </div>
+   <div class="BOX1">
+  <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">ორშაბათი, 12 აგვისტო, 12:35 </p>
+    <div class="BOX">
+  <p>თითქოს ჩემი სურვილები არც არსებობს, არავინ არაფერს მეკითხება, ყველა ისე მექცევა როგორც თვითონ მოუნდება, მე რა მინდა არავის აინტერესებს. </p>
+  </div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div></div></div>
+  <div class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/5.png"></div>
+    <div class="BOX1">
+<div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">სამშაბათი,13 აგვისტო, 17:47</p>
+    <div class="BOX">
+  <p class="text-dgiuri">ვინ ვარ მე? რატო ვარსებობ საერთოდ? ამ კითხვებს ვუსვამ ჩემს თავს მაგრამ არივიცი პასუხები სად ვიპოვნო</p></div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+  </div>
+  </div></div>
+  <div class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/10.png"></div>
+    <div class="BOX1">
+    <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">ოთხშაბათი, 14 აგვისტო, 10:23</p>
+    <div class="BOX">
+  <p>ვიცნობ სხვა ცუგოებს, მაღლები და ტანადები არიან სხვადასხვა შეჯიბრებებში იმარჯვებენ, პრიზებს იღებენ და მათი პატრონები კი სიამაყით ივსებიან. მე კიდე არაფერი გამიკეთებია ისეთი რითიც ჩემი პატრონი იამაყებდა. </p>
+  </div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div>
+  <div class="box10"><div>
+    <img class="posteri-dgeebi" src="assets/img/4.png"></div>
+    <div class="BOX1">
+    <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">ხუთშაბათი, 15 აგვისტო, 16:46</p>
+    <div class="BOX">
+  <p>ხანდახან ისე მექცევიან როგორც სათამაშოს, ისე მაცვამენ როგორც თვითონ მოსწონთ, გუშინ eBay-დან კიდევ წითელი ზედა გამომიწერეს არადა რამდენი ვიძახე ეგ ფერი არ მიხდება თქო :დ </p>
+  </div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div>
+  <div class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/6.png"></div>
+    <div class="BOX1">
+    <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">პარასკევი, 16 აგვისტო, 19:25</p>
+    <div class="BOX">
+  <p>მე ვინ შემიყვარებს?! არადა მინდა გამოვცადო </p>
+  </div>
+</div>
+<div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div>
+  <div class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/7.png"></div>
+    <div class="BOX1">
+    <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">შაბათი, 17 აგვისტო, 23:10 </p>
+    <div class="BOX">
+  <p>გუშინ ჭექაქუხილი იყო, იცი ალბათ ძაღლებს როგორ გვეშინია ჭექაქუხილის ხოდა აი თავი ვერ შევიკავე, რა ვქნა შემეშინდა :დ  </p>
+  </div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div>
+  <div class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/8.png"></div>
+    <div class="BOX1">
+    <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">კვირა, 18 აგვისტო, 22:57</p>
+    <div class="BOX">
+  <p>ფიეჰფიწეჰფაინ  ნფწაინ ცასიცნაწიცნაც ანციწაფაწნკფაწ ფსნფაიეოფნანფ ფანფოიაჰფაწკფაწფ ფოწაიფნწაფ </p>
+  </div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div>
+  <div  class="box10">
+    <div>
+    <img class="posteri-dgeebi" src="assets/img/0.png"></div>
+    <div class="BOX1">
+    <div class="BOX2">
+    <p class="satauri-dgiuri ff-bold">მუდის დღიური</p>
+    <div class="BOX">
+  <p>მომწერეთ ხოლმე, თორე უთქვენოდ მოწყენილი ვარ  </p>
+  </div></div>
+  <div class="submit">
+    <img class="icon-personal" src="assets/img/icon.png">
+    <form><textarea cols="30"rows="1">დაწერე შენი კომენტარი...</textarea></form>
+    
+  </div>
+  </div>
+</div> -->
+  </body>
+  </html>

@@ -1,0 +1,412 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 1.5%;
+  background-color: #f4f4f4;
+  font-family: "BPG Nino Mtavruli";
+  font-weight: bold;
+}
+
+
+.main-aside {
+  width: 21%;
+  background-color: #4f3f68;
+  padding: 30px;
+  border-radius: 15px;
+  border-radius: 15px;
+  height: 95%;
+  font-size: 18px;
+  position: fixed;
+}
+
+.search-div {
+  margin-top: 10px;
+  padding-right: 5px;
+  position: relative;
+}
+.seach-input {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.search-logo {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  width: 17px;
+}
+
+.nav-links {
+  color: #fff;
+  margin-top: 50px;
+}
+
+
+
+.nav-li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
+
+.momtsere-div {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.messenger-logo {
+  width: 45px;
+}
+
+.momtsere-p {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.aside-contact-logos {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+}
+
+.facebook-logo {
+  height: 24px;
+  margin-right: 20px;
+}
+
+.instagram-logo {
+  height: 24px;
+}
+
+.main-section {
+  margin-left: 23%;
+}
+
+
+.moody-logo {
+  width: 8%;
+  margin-right: 5%;
+}
+
+.moody-diary {
+  color: #4a6693;
+}
+
+.moody-diarys-div {
+  margin-top: 2%;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.moody-diarys-div-header {
+  justify-content: space-between;
+}
+
+.moody-diarys-header-p {
+  margin: 10px 0 0 10px;
+  font-size: 26px;
+}
+
+.diarys-date {
+  border-bottom-left-radius: 20px;
+  background-color: #4f3f68;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.pure-diary {
+  /* margin: 2% 0 0 10px; */
+  width: 70%;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+ 
+}
+.pure-diary1{
+  width: 70%;
+  font-family: "DejaVu Sans";
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 10px;
+  margin-bottom: 80px;
+
+}
+.moody-diarys-div-footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.paw-img-div {
+  display: flex;
+  align-items: center;
+  background-color: #fcef54;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+*/
+/*.paw-img {
+  width: 28px;
+}*/
+
+.diary-emotions {
+  background: lightblue;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 20px 6px;
+  /* width: 150px; */
+  border-radius: 15px;
+}
+
+/*.bone,
+.share {
+  width: 22px;
+  margin-left: 10px;
+}
+
+.bones-number,
+.share-number {
+  margin-left: 5px;
+  color: #fff;;
+  margin-bottom: 7px;
+}
+
+.bone-emotion {
+  margin-right: -25px;
+  padding-right: 35px;
+  background-color: #a5d9e5;
+}*/
+/*
+.share-emotion {
+  background-color: #fcef54;
+}
+
+.emotion-buttons {
+  border: none;
+}
+*/
+.share-number {
+  color: black;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 20px;
+  height: auto;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4f3f68;
+  color: white;
+  padding: 14px 20px;
+  /* margin: 8px 10px; */
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 30px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.avatar {
+  width: 20%;
+  border-radius: 30%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0px;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+
+}
+
+/* The Close Button (x) */
+.close {
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.posteri-dgeebi{
+  height: 300px;
+  margin:10px;
+}
+.box10{
+  display: flex;
+  
+}
+.satauri-dgiuri{
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.text-dgiuri{
+  width: 100%;
+  height: 500px;
+}
+.BOX{
+  height: 100px;
+  width: 100%;
+  
+  
+}
+.BOX1{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 13px;
+    width: 100%;
+}
+.submit{
+  display: flex;
+  background-color: #E6E6E6;
+  padding: 5px;
+  justify-content: center;
+}
+.submit textarea{
+    border-radius: 15px;
+    resize: none;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #E6E6E6;
+}
+/*.icon-personal{
+  width: 40px;
+
+}*/
+.submit img{
+  width: 30px;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+
+.submit textarea{
+ width: 300px;
+
+}
+.BOX2{
+  margin: 10px;
+}
+
+
+
+/* ============================================ */
+.search-form .input-group-text{
+  background: #fff !important;
+  border: none !important;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.search-form input{
+  border: none !important;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.soc .fb{
+  font-size: 24px;
+}
+.soc .instagram{
+  font-size: 28px;
+}
+.yuti{
+ padding: 20px;
+}
+.nav-lia{
+  padding-left: 22px;
+  padding-bottom: 5px;
+}
